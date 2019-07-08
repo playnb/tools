@@ -1,0 +1,13 @@
+{
+  "comment": {
+    "in": "凡是出现在in中的消息，都不出现在Notify里",
+    "out": "凡是出现在out中的对象，都没有Handle",
+    "type": "0:TS作为客户端,Go作为服务端"
+  },
+  "call": [
+    {
+      "in": "echo.HelloRequest",
+      "out": "echo.HelloResponse"
+    }
+  ]
+}
